@@ -15,8 +15,7 @@ public class Main {
         int temperature = 3;
         if (temperature < 5) {
             System.out.printf("надо одеть шапку!");
-        }
-        if (temperature >= 5){
+        }else {
             System.out.printf("шапку одевать ненадо!");
         }
 
@@ -34,7 +33,7 @@ public class Main {
 
         int age2 = 35;
 
-        if (age2 < 2){
+        if (age2 <= 2){
             System.out.printf("Если возраст человека равен " + age2 + " то ему нужно cидеть дома");
         }
         if (age2 >= 2 && age2 <= 6) {
@@ -57,10 +56,10 @@ public class Main {
         if (child <= 5) {
             System.out.printf("если ребёнку " + child + " не может кататься на аттракционе!");
         }
-        if (child >= 5 && child <= 14) {
+        if (child >= 5 && child < 14) {
             System.out.printf("если ребёнку " + child + " то он может кататься на аттракционе только в присутсвии взрослого!");
         }
-        if (child > 14){
+        if (child >= 14){
             System.out.printf("если ребёнку " + child + " то он может кататься спокойно без взрослых!");
         }
 
@@ -88,9 +87,6 @@ public class Main {
         }else if (three > two && three > one) {
             System.out.printf("число three больше остальных");
         }
-
-
-
 
     }
 
